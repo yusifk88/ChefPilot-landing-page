@@ -2,11 +2,20 @@
   <Head>
     <Meta charset="UTF-8"/>
     <Meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <Title>Chefpilot | AI-Powered Kitchen Inventory & Recipes</Title>
-
+    <Meta property="og:title" content="AI-Powered Tailored Recipes" />
+    <Meta property="og:type" content="website" />
+    <Meta property="og:description" content="Stop asking What's for dinner? Cook what you have." />
+    <Meta property="og:url" content="https://chefpilot.live" />
+    <Meta property="og:image" content="https://flobaze.atl1.cdn.digitaloceanspaces.com/chefpilot/chefpilot_og_image.webp" />
+    <Meta name="twitter:card" content="summary_large_image"/>
+    <Meta property="og:site_name" content="chefpilot"/>
+    <Meta name="twitter:image:alt" content="Screenshot of chefpilot"/>
+    <Title>Chefpilot | AI-Powered Tailored Recipes</Title>
     <Link rel="icon" type="image/png" href="https://flobaze.atl1.cdn.digitaloceanspaces.com/chefpilot/chefpilot_icon.png"/>
     <Link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <Link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"/>
+
+
 
   </Head>
   <body class="bg-sage text-gray-900 selection:bg-emerald-200">

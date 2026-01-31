@@ -13,9 +13,9 @@
         <p class="text-lg text-gray-600 mb-10 leading-relaxed max-w-xl">
           Chefpilot intelligently catalogs your kitchen inventory and serves up personalized, chef-quality recipes based on exactly what's in your pantry. No more waste, no more grocery stress.
         </p>
-        <div class="flex justify-start gap-6 relative z-10">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" class="h-16 cursor-pointer hover:scale-105 transition-transform" style="border-radius: 8px!important; transition: 0.3s ease-in-out" alt="App Store">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" class="h-16  cursor-pointer hover:scale-105 transition-transform" style="border-radius: 8px!important; transition: 0.3s ease-in-out" alt="Google Play">
+        <div class="flex justify-center gap-6 relative z-10">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" class="h-12 cursor-pointer hover:scale-105 transition-transform" alt="App Store">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" class="h-12 cursor-pointer hover:scale-105 transition-transform" alt="Google Play">
         </div>
       </div>
       <div class="relative flex justify-center lg:justify-end animate__animated animate__fadeInRight">
