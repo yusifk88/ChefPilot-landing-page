@@ -66,7 +66,7 @@
         <h2>Contact Our Privacy Team</h2>
         <p>Have questions about your data? Reach out to us directly.</p>
         <p><strong>Email:</strong> <a href="mailto:privacy@chefpilot.ai">privacy@chefpilot.ai</a></p>
-        <p><strong>Support:</strong> <a href="https://www.chefpilot.ai/support">www.chefpilot.ai/support</a></p>
+        <p><strong>Conatct:</strong> <a href="https://www.chefpilot.ai/contact">www.chefpilot.ai/contact</a></p>
       </div>
     </div>
   </div>
@@ -103,11 +103,10 @@ export default defineComponent({
 }
 
 .policy-container {
-  background: var(--white);
+  background: #ffffff!important;
   padding: 60px;
   padding-top: 10em;
   border-radius: 24px;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
   border: 1px solid rgba(45, 90, 39, 0.08);
 }
 
@@ -231,7 +230,7 @@ li::before {
 
 @media (max-width: 640px) {
   .policy-container {
-    padding: 40px 20px;
+    padding: 10em 20px;
   }
   h1 { font-size: 1.8rem; }
   .effective-date { font-size: 0.85rem; }

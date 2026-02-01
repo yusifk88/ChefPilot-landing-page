@@ -16,9 +16,9 @@
     <Link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"/>
 
 
-
   </Head>
-  <body class="bg-sage text-gray-900 selection:bg-emerald-200">
+
+  <div class="bg-sage text-gray-900 selection:bg-emerald-200">
 
   <nav class="fixed w-full z-50 bg-sage/80 backdrop-blur-md border-b border-emerald-100" style="top: 0!important;">
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
@@ -72,7 +72,7 @@
       </div>
     </div>
   </footer>
-  </body>
+  </div>
 
 </template>
 
@@ -81,21 +81,6 @@ import {defineComponent} from 'vue'
 
 export default defineComponent({
   name: "Layout",
-  updated() {
-    const observerOptions = {
-      threshold: 0.1
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, observerOptions);
-
-    document.querySelectorAll('.scroll-reveal').forEach(el => observer.observe(el));
-  },
   mounted() {
     const observerOptions = {
       threshold: 0.1
@@ -110,11 +95,18 @@ export default defineComponent({
     }, observerOptions);
 
     document.querySelectorAll('.scroll-reveal').forEach(el => observer.observe(el));
+
+
   }
 })
 </script>
 
 <style>
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth }
 .bg-sage { background-color: #F2F5F0; }
 .text-emerald-primary { color: #2D5A27; }
