@@ -6,7 +6,7 @@
     <Meta property="og:type" content="website" />
     <Meta property="og:description" content="Stop asking What's for dinner? Cook what you have." />
     <Meta property="og:url" content="https://chefpilot.live" />
-    <Meta property="og:image" content="https://flobaze.atl1.cdn.digitaloceanspaces.com/chefpilot/chefpilot_og_image.webp" />
+    <Meta property="og:image" content="https://flobaze.atl1.cdn.digitaloceanspaces.com/chefpilot/chefpilot_new_og_image.webp" />
     <Meta name="twitter:card" content="summary_large_image"/>
     <Meta property="og:site_name" content="chefpilot"/>
     <Meta name="twitter:image:alt" content="Screenshot of chefpilot"/>
