@@ -2,7 +2,7 @@
   <Head>
     <Meta charset="UTF-8"/>
     <Meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <Meta property="og:title" content="AI-Powered Tailored Recipes" />
+    <Meta property="og:title" content="Meet your new AI Sous-Chef" />
     <Meta property="og:type" content="website" />
     <Meta property="og:description" content="Chefpilot intelligently catalogs your kitchen inventory and serves up personalized, chef-quality recipes
             based on exactly what's in your pantry. No more waste, no more grocery stress." />
