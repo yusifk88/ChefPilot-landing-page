@@ -17,10 +17,15 @@
             based on exactly what's in your pantry. No more waste, no more grocery stress.
           </p>
           <div class="flex justify-center gap-6 relative z-10">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
-                 class="h-12 cursor-pointer hover:scale-105 transition-transform" alt="App Store">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
-                 class="h-12 cursor-pointer hover:scale-105 transition-transform" alt="Google Play">
+            <a href="#">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
+                   class="h-12 cursor-pointer hover:scale-105 transition-transform" alt="App Store">
+            </a>
+
+            <a href="https://play.google.com/store/apps/details?id=live.chefpilot.app&pcampaignid=web_share">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                   class="h-12 cursor-pointer hover:scale-105 transition-transform" alt="Google Play">
+            </a>
           </div>
         </div>
         <div class="relative flex justify-center lg:justify-end animate__animated animate__fadeInRight">

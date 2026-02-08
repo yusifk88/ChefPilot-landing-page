@@ -49,8 +49,12 @@
           Join other home chefs who have transformed their cooking experience with Chefpilot.
         </p>
         <div class="flex justify-center gap-6 relative z-10">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" class="h-12 cursor-pointer hover:scale-105 transition-transform" alt="App Store">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" class="h-12 cursor-pointer hover:scale-105 transition-transform" alt="Google Play">
+          <a href="#">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" class="h-12 cursor-pointer hover:scale-105 transition-transform" alt="App Store">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=live.chefpilot.app&pcampaignid=web_share">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" class="h-12 cursor-pointer hover:scale-105 transition-transform" alt="Google Play">
+          </a>
         </div>
       </div>
     </div>
@@ -64,7 +68,7 @@
         <span class="font-bold text-xl text-emerald-primary">Chefpilot</span>
       </div>
       <div class="text-gray-400 text-sm">
-        &copy; 2026 Chefpilot AI. All rights reserved. Your kitchen, automated.
+        &copy; 2026 Chefpilot AI. All rights reserved. Your kitchen, automated. | <a href="https://flobaze.com" target="_blank" rel="nofollow">Flobaze, Inc</a>
       </div>
       <div class="flex gap-6 text-gray-500 font-medium">
         <nuxt-link href="/privacy" class="hover:text-emerald-primary">Privacy</nuxt-link>
@@ -122,7 +126,7 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth }
 }
 
 .phone-mockup {
-  border: 8px solid #1a1a1a;
+  border: 3px solid #1A1A1A;
   border-radius: 2.5rem;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
   overflow: hidden;
