@@ -65,8 +65,8 @@
       <div class="contact-card">
         <h2>Contact Our Privacy Team</h2>
         <p>Have questions about your data? Reach out to us directly.</p>
-        <p><strong>Email:</strong> <a href="mailto:privacy@chefpilot.ai">privacy@chefpilot.ai</a></p>
-        <p><strong>Conatct:</strong> <a href="https://www.chefpilot.ai/contact">www.chefpilot.ai/contact</a></p>
+        <p><strong>Email:</strong> <a href="mailto:hello@flobaze.com">hello@flobaze.com</a></p>
+        <p><strong>Contact:</strong> <a href="https://www.chefpilot.live/contact">www.chefpilot.live/contact</a></p>
       </div>
     </div>
   </div>
