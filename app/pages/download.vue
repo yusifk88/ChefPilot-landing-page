@@ -38,13 +38,14 @@ export default defineComponent({
       if (/Android/.test(userAgent)) return 'https://play.google.com/store/apps/details?id=live.chefpilot.app&pcampaignid=web_share';
       if (/iPhone|iPad|iPod/.test(userAgent)) return 'https://apps.apple.com/us/app/chefpilot/id6759763909';
 
+      alert(userAgent);
+
       return 'https://www.chefpilot.live/';
 
     }
   },
   mounted(): void {
 
-    alert(this.getOS());
     window.location.href = this.getOS();
 
   }
