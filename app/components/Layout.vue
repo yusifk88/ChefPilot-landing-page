@@ -82,6 +82,7 @@
        <a href="https://startupfa.me" target="_blank" class="text-grey block">startupfa</a>
 
         <twelve-tools></twelve-tools>
+        <faizer></faizer>
 
       </div>
     </div>
@@ -93,10 +94,11 @@
 <script lang="ts">
 import {defineComponent} from 'vue'
 import TwelveTools from "~/components/badges/TwelveTools.vue";
+import Faizer from "~/components/badges/Faizer.vue";
 
 export default defineComponent({
   name: "Layout",
-  components: {TwelveTools},
+  components: {Faizer, TwelveTools},
   mounted() {
     const observerOptions = {
       threshold: 0.1
