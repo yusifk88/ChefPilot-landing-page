@@ -77,8 +77,11 @@
       </div>
 
       <div class=" gap-6 text-gray-500 font-medium">
-        <p class="block">Available on:</p>
+        <p class="block text-back-500">Available on:</p>
+
        <a href="https://startupfa.me" target="_blank" class="text-grey block">startupfa</a>
+
+        <twelve-tools></twelve-tools>
 
       </div>
     </div>
@@ -89,9 +92,11 @@
 
 <script lang="ts">
 import {defineComponent} from 'vue'
+import TwelveTools from "~/components/badges/TwelveTools.vue";
 
 export default defineComponent({
   name: "Layout",
+  components: {TwelveTools},
   mounted() {
     const observerOptions = {
       threshold: 0.1
