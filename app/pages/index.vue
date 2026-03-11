@@ -17,7 +17,7 @@
             based on exactly what's in your pantry. No more waste, no more grocery stress.
           </p>
           <div class="flex justify-center gap-6 relative z-10">
-            <a href="#">
+            <a href="https://apps.apple.com/us/app/chefpilot/id6759763909">
               <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
                    class="h-12 cursor-pointer hover:scale-105 transition-transform" alt="App Store">
             </a>

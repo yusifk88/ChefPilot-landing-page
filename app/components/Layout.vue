@@ -16,7 +16,6 @@
     <Link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <Link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"/>
 
-
   </Head>
 
   <div class="bg-sage text-gray-900 selection:bg-emerald-200">
@@ -49,7 +48,7 @@
           Join other home chefs who have transformed their cooking experience with Chefpilot.
         </p>
         <div class="flex justify-center gap-6 relative z-10">
-          <a href="#">
+          <a href="https://apps.apple.com/us/app/chefpilot/id6759763909">
             <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" class="h-12 cursor-pointer hover:scale-105 transition-transform" alt="App Store">
           </a>
           <a href="https://play.google.com/store/apps/details?id=live.chefpilot.app&pcampaignid=web_share">
@@ -126,7 +125,7 @@ body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth }
 }
 
 .phone-mockup {
-  border: 3px solid #1A1A1A;
+  border: 5px solid #1A1A1A;
   border-radius: 2.5rem;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
   overflow: hidden;
