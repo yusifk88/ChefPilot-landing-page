@@ -35,7 +35,7 @@ export default defineComponent({
       if (this.$device.isWindows) return 'https://www.chefpilot.live/';
       if (this.$device.isMacOS) return 'https://apps.apple.com/us/app/chefpilot/id6759763909';
       if (this.$device.isLinux) return 'https://www.chefpilot.live/';
-      if (this.$device.isAndroid) return 'https://play.google.com/store/apps/details?id=live.chefpilot.app&pcampaignid=web_share';
+      if (this.$device.isAndroid) return 'https://play.google.com/store/apps/details?id=live.chefpilot.app';
       if (this.$device.isIos) return 'https://apps.apple.com/us/app/chefpilot/id6759763909';
 
       return 'https://www.chefpilot.live/';
