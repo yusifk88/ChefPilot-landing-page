@@ -44,6 +44,7 @@ export default defineComponent({
   },
   mounted(): void {
 
+    alert(this.getOS());
     window.location.href = this.getOS();
 
   }
