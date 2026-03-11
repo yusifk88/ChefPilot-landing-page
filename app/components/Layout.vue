@@ -73,6 +73,13 @@
         <nuxt-link href="/privacy" class="hover:text-emerald-primary">Privacy</nuxt-link>
         <nuxt-link href="/terms" class="hover:text-emerald-primary">Terms</nuxt-link>
         <nuxt-link href="/contact" class="hover:text-emerald-primary">Contact</nuxt-link>
+
+      </div>
+
+      <div class=" gap-6 text-gray-500 font-medium">
+        <p class="block">Available on:</p>
+       <a href="https://startupfa.me" target="_blank" class="text-grey block">startupfa</a>
+
       </div>
     </div>
   </footer>
