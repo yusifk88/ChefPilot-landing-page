@@ -39,7 +39,7 @@ export default defineComponent({
       if (platform.includes('Win')) return 'https://www.chefpilot.live/';
       if (platform.includes('Mac')) return 'https://apps.apple.com/us/app/chefpilot/id6759763909';
       if (platform.includes('Linux')) return 'https://www.chefpilot.live/';
-      if (/Android/.test(userAgent)) return 'https://play.google.com/store/apps/details?id=live.chefpilot.app&pcampaignid=web_share';
+      if (userAgent.includes("Android")) return 'https://play.google.com/store/apps/details?id=live.chefpilot.app&pcampaignid=web_share';
       if (/iPhone|iPad|iPod/.test(userAgent)) return 'https://apps.apple.com/us/app/chefpilot/id6759763909';
 
 
