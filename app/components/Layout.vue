@@ -80,6 +80,7 @@
         <p class="block text-back-500">Available on:</p>
 
        <a href="https://startupfa.me" target="_blank" class="text-grey block">startupfa</a>
+       <a href="https://toolsfine.com/" target="_blank" class="text-grey block">toolsfine</a>
 
         <twelve-tools></twelve-tools>
         <faizer></faizer>
