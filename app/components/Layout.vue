@@ -92,6 +92,7 @@
         <laucnh-ignighter></laucnh-ignighter>
         <tech-viral></tech-viral>
         <start-up-list></start-up-list>
+        <huzzler></huzzler>
 
       </div>
     </div>
@@ -112,10 +113,12 @@ import Submithunt from "~/components/badges/submithunt.vue";
 import LaucnhIgnighter from "~/components/badges/LaucnhIgnighter.vue";
 import TechViral from "~/components/badges/TechViral.vue";
 import StartUpList from "~/components/badges/StartUpList.vue";
+import Huzzler from "~/components/badges/Huzzler.vue";
 
 export default defineComponent({
   name: "Layout",
   components: {
+    Huzzler,
     StartUpList,
     TechViral, LaucnhIgnighter, Submithunt, OpenLaucnh, Findly, Aidirectori, Tabo0, Faizer, TwelveTools},
   mounted() {
