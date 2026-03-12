@@ -91,6 +91,7 @@
         <submithunt></submithunt>
         <laucnh-ignighter></laucnh-ignighter>
         <tech-viral></tech-viral>
+        <start-up-list></start-up-list>
 
       </div>
     </div>
@@ -110,10 +111,13 @@ import OpenLaucnh from "~/components/badges/OpenLaucnh.vue";
 import Submithunt from "~/components/badges/submithunt.vue";
 import LaucnhIgnighter from "~/components/badges/LaucnhIgnighter.vue";
 import TechViral from "~/components/badges/TechViral.vue";
+import StartUpList from "~/components/badges/StartUpList.vue";
 
 export default defineComponent({
   name: "Layout",
-  components: {TechViral, LaucnhIgnighter, Submithunt, OpenLaucnh, Findly, Aidirectori, Tabo0, Faizer, TwelveTools},
+  components: {
+    StartUpList,
+    TechViral, LaucnhIgnighter, Submithunt, OpenLaucnh, Findly, Aidirectori, Tabo0, Faizer, TwelveTools},
   mounted() {
     const observerOptions = {
       threshold: 0.1
