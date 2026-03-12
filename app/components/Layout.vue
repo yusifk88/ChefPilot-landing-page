@@ -89,6 +89,7 @@
         <findly></findly>
         <open-laucnh></open-laucnh>
         <submithunt></submithunt>
+        <laucnh-ignighter></laucnh-ignighter>
 
       </div>
     </div>
@@ -106,10 +107,11 @@ import Aidirectori from "~/components/badges/Aidirectori.vue";
 import Findly from "~/components/badges/findly.vue";
 import OpenLaucnh from "~/components/badges/OpenLaucnh.vue";
 import Submithunt from "~/components/badges/submithunt.vue";
+import LaucnhIgnighter from "~/components/badges/LaucnhIgnighter.vue";
 
 export default defineComponent({
   name: "Layout",
-  components: {Submithunt, OpenLaucnh, Findly, Aidirectori, Tabo0, Faizer, TwelveTools},
+  components: {LaucnhIgnighter, Submithunt, OpenLaucnh, Findly, Aidirectori, Tabo0, Faizer, TwelveTools},
   mounted() {
     const observerOptions = {
       threshold: 0.1
