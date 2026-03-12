@@ -94,6 +94,7 @@
         <start-up-list></start-up-list>
         <huzzler></huzzler>
         <supper-laucnh></supper-laucnh>
+        <proof-stories></proof-stories>
 
       </div>
     </div>
@@ -116,10 +117,12 @@ import TechViral from "~/components/badges/TechViral.vue";
 import StartUpList from "~/components/badges/StartUpList.vue";
 import Huzzler from "~/components/badges/Huzzler.vue";
 import SupperLaucnh from "~/components/badges/SupperLaucnh.vue";
+import ProofStories from "~/components/badges/ProofStories.vue";
 
 export default defineComponent({
   name: "Layout",
   components: {
+    ProofStories,
     SupperLaucnh,
     Huzzler,
     StartUpList,
