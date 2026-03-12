@@ -83,6 +83,7 @@
 
         <twelve-tools></twelve-tools>
         <faizer></faizer>
+        <tabo0></tabo0>
 
       </div>
     </div>
@@ -95,10 +96,11 @@
 import {defineComponent} from 'vue'
 import TwelveTools from "~/components/badges/TwelveTools.vue";
 import Faizer from "~/components/badges/Faizer.vue";
+import Tabo0 from "~/components/badges/tabo0.vue";
 
 export default defineComponent({
   name: "Layout",
-  components: {Faizer, TwelveTools},
+  components: {Tabo0, Faizer, TwelveTools},
   mounted() {
     const observerOptions = {
       threshold: 0.1

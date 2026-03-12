@@ -1,0 +1,17 @@
+<template>
+  <a href="https://turbo0.com/item/chefpilot" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.turbo0.com/badge-listed-light.svg" alt="Listed on Turbo0" style="height: 54px; width: auto;" />
+  </a>
+</template>
+
+<script lang="ts">
+import {defineComponent} from 'vue'
+
+export default defineComponent({
+  name: "tabo0"
+})
+</script>
+
+<style scoped>
+
+</style>
