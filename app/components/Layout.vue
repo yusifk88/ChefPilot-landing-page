@@ -88,6 +88,7 @@
         <aidirectori></aidirectori>
         <findly></findly>
         <open-laucnh></open-laucnh>
+        <submithunt></submithunt>
 
       </div>
     </div>
@@ -104,10 +105,11 @@ import Tabo0 from "~/components/badges/tabo0.vue";
 import Aidirectori from "~/components/badges/Aidirectori.vue";
 import Findly from "~/components/badges/findly.vue";
 import OpenLaucnh from "~/components/badges/OpenLaucnh.vue";
+import Submithunt from "~/components/badges/submithunt.vue";
 
 export default defineComponent({
   name: "Layout",
-  components: {OpenLaucnh, Findly, Aidirectori, Tabo0, Faizer, TwelveTools},
+  components: {Submithunt, OpenLaucnh, Findly, Aidirectori, Tabo0, Faizer, TwelveTools},
   mounted() {
     const observerOptions = {
       threshold: 0.1
