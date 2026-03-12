@@ -86,6 +86,7 @@
         <faizer></faizer>
         <tabo0></tabo0>
         <aidirectori></aidirectori>
+        <findly></findly>
 
       </div>
     </div>
@@ -100,10 +101,11 @@ import TwelveTools from "~/components/badges/TwelveTools.vue";
 import Faizer from "~/components/badges/Faizer.vue";
 import Tabo0 from "~/components/badges/tabo0.vue";
 import Aidirectori from "~/components/badges/Aidirectori.vue";
+import Findly from "~/components/badges/findly.vue";
 
 export default defineComponent({
   name: "Layout",
-  components: {Aidirectori, Tabo0, Faizer, TwelveTools},
+  components: {Findly, Aidirectori, Tabo0, Faizer, TwelveTools},
   mounted() {
     const observerOptions = {
       threshold: 0.1
