@@ -77,7 +77,7 @@
       </div>
 
       <div class=" gap-6 text-gray-500 font-medium">
-        <p class="block text-back-500">Available on:</p>
+        <p class="block text-back-500">Featured on:</p>
 
        <a href="https://startupfa.me" target="_blank" class="text-grey block">startupfa</a>
        <a href="https://toolsfine.com/" target="_blank" class="text-grey block">toolsfine</a>
@@ -95,6 +95,7 @@
         <huzzler></huzzler>
         <supper-laucnh></supper-laucnh>
         <proof-stories></proof-stories>
+        <go-publicly></go-publicly>
 
       </div>
     </div>
@@ -118,10 +119,12 @@ import StartUpList from "~/components/badges/StartUpList.vue";
 import Huzzler from "~/components/badges/Huzzler.vue";
 import SupperLaucnh from "~/components/badges/SupperLaucnh.vue";
 import ProofStories from "~/components/badges/ProofStories.vue";
+import GoPublicly from "~/components/badges/GoPublicly.vue";
 
 export default defineComponent({
   name: "Layout",
   components: {
+    GoPublicly,
     ProofStories,
     SupperLaucnh,
     Huzzler,
